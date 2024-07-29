@@ -2,7 +2,7 @@ const photoContainer = document.getElementById("photo-container");
 
 let content="";
 
-for(let i=0; i<61; i++){
+for(let i=0; i<65; i++){
         content += getPhotoElement(i+1);
 }
 
