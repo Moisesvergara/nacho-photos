@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Nacho producciones</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="img/LOGO VIDEO 2.png" alt="logo-nacho" height="30" width="30"> 
+            <h1>CRIS NACHO PRODUCE</h1>
+            <ul>
+                <li><a href="index.html" class="active"> Fotografías</a></li>
+                <li><a href="sobre-mi.html"> Sobre Mí</a></li>
+                <li><a href="contacto.html"> Contacto</a></li>
+            </ul> 
+        </header>
+        <div id="sidebar">
+            <ul>
+                <li><a href="#" class="active">Las mejores</a></li>
+                <li><a href="#"> Retratos</a></li>
+                <li><a href="#"> Paisajes</a></li>
+                <li><a href="#"> Urbano</a></li>
+                <li><a href="#"> Deporte</a></li>
+                <li><a href="#"> Música</a></li>
+            </ul> 
+        </div>
+    
+        <div class="content_contacto">
+            <div  class="titulodecontacto">
+                <h4>Si deseas recibir más información de presupuestos escríbeme y en 
+                    breve me pondre en contacto contigo, estaré encantado
+                    de concretar una cita, y si te da flojera rellenar el formulario 
+                    me puedes escribir a instagram.
+                </h4>
+                <img class="sony" src="imagen/camara_sony.png" alt="">
+            </div>    
+            <div class="formulario">
+                <form action="/enviar-mensaje" method="POST">
+                    <label for="nombre">Nombre:</label><br />
+                    <input type="text" id="nombre" name="nombre" /><br />
+                    <label for="email">Email:</label><br />
+                    <input type="email" id="email" name="email" /><br />
+                    <label for="mensaje">Mensaje:</label><br />
+                    <textarea id="mensaje" name="mensaje"></textarea><br />
+                    <input type="submit" value="Enviar mensaje" />
+                </form>
+            </div>
+        </div>  
+
+    </div>
+    <footer>&copy;Derechos reservados</footer>
+    <script src="js/main.js"></script>
+</body>
+   
+</html> 
