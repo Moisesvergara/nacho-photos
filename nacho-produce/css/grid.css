@@ -6,6 +6,7 @@
 header {
     background-color: rgb(9, 9, 9);
     grid-area: header;
+    padding-left: 25%;
 }
 #sidebar{
     background-color: rgb(11, 10, 10);
