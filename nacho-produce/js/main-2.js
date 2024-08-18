@@ -2,11 +2,11 @@ const photoContainer = document.getElementById("photo-container2");
 
 let content="";
 
-for(let i=0; i<15; i++){
+for(let i=0; i<18; i++){
         content += getPhotoElement(i+1);
 }
 
-photoContainer2.innerHTML = content;
+photoContainer.innerHTML = content;
 
 function getPhotoElement(photo_id){
     return `<a href="#" class="photo">
